@@ -558,7 +558,7 @@
         });
         return a ? b[a] : b
     };
-    $(document).ready(function() { ("." + e.location.host).match(/\.(?:xiaoer\.tv|x2yun\.com|localhost|x2y2\.com)$/) || (e.location.href = "//www.x2yun.com/?from=js&host=" + encodeURIComponent(e.location.host) + "&" + (e.location.search + "").replace("?", "&") + e.location.hash);
+    $(document).ready(function() { ("." + e.location.host).match(/\.(?:xiaoer\.tv|x2yun\.com|localhost|x2y2\.com|xiaoyemian\.com)$/) || (e.location.href = "//www.x2yun.com/?from=js&host=" + encodeURIComponent(e.location.host) + "&" + (e.location.search + "").replace("?", "&") + e.location.hash);
         $("#search-btn").click(c.search);
         $("#search").submit(c.search);
         $("#play-button").click(function(a) {
