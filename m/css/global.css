@@ -3627,7 +3627,7 @@ header #logo {
     height:40px
 }
 header #logo .beta-icon {
-    background:url(../images/betalabel-889dd5600472516900353cb23ab13830.png) 0 10px no-repeat;
+    background:url(../images/beta.png) 0 10px no-repeat;
     width:30px;
     height:30px;
     position:absolute;
