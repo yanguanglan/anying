@@ -1,0 +1,877 @@
+@import url(//fonts.googleapis.com/css?family=Muli:400,700);
+    @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
+    @import url(//fonts.googleapis.com/css?family=Questrial|Mako|Voces|PT+Sans|Armata|PT+Sans+Narrow|Istok+Web|Arimo|Ubuntu|Gudea|Cantarell|Muli|Ubuntu+Condensed|Cuprum|Signika|Pontano+Sans|Oxygen|Didact+Gothic|Actor|Doppio+One);
+    .columns {
+    zoom:1;
+    width:100%
+}
+.columns:before,.columns:after {
+    content:"";
+    display:table
+}
+.columns:after {
+    clear:both
+}
+.column {
+    float:left
+}
+.grid {
+    zoom:1
+}
+.grid:before,.grid:after {
+    content:"";
+    display:table
+}
+.grid:after {
+    clear:both
+}
+.grid li {
+    float:left
+}
+.media-icon {
+    width:16px;
+    height:16px;
+    background-position:0 0
+}
+.media-icon.media-icon-flash {
+    background-image:url(http://www.di.fm/assets/icon.flash-2336707865a2a065f824a65c20afecd0.png)
+}
+.media-icon.media-icon-winamp {
+    background-image:url(http://www.di.fm/assets/icon.winamp-7ef8afd144187d2ff0e57f5dfeb233aa.png)
+}
+.media-icon.media-icon-itunes {
+    background-image:url(http://www.di.fm/assets/icon.itunes-d04baeec889c11a0f8b5b1f5150856f3.png)
+}
+.media-icon.media-icon-vlc {
+    background-image:url(http://www.di.fm/assets/icon.vlc-fe5801e9834832ed7111aa30bf213b97.png)
+}
+.media-icon.media-icon-mp3 {
+    background-image:url(http://www.di.fm/assets/icon.mp3-10484697e2b04b59227c6277ba77f497.png)
+}
+.media-icon.media-icon-real {
+    background-image:url(http://www.di.fm/assets/icon.real-58afdaf8f8d1936be589ce673f910a84.png)
+}
+.media-icon.media-icon-wmp {
+    background-image:url(http://www.di.fm/assets/icon.wmp-9db4ed415d534ecdb6cdac9730023308.png)
+}
+.media-icon.media-icon-hardware {
+    background-image:url(http://www.di.fm/assets/icon.hardware-573dedd382e4926e90f05a5045d99c3f.png)
+}
+.columns {
+    zoom:1;
+    width:100%
+}
+.columns:before,.columns:after {
+    content:"";
+    display:table
+}
+.columns:after {
+    clear:both
+}
+.column {
+    float:left
+}
+.grid {
+    zoom:1
+}
+.grid:before,.grid:after {
+    content:"";
+    display:table
+}
+.grid:after {
+    clear:both
+}
+.grid li {
+    float:left
+}
+.media-icon {
+    width:16px;
+    height:16px;
+    background-position:0 0
+}
+.media-icon.media-icon-flash {
+    background-image:url(http://www.di.fm/assets/icon.flash-2336707865a2a065f824a65c20afecd0.png)
+}
+.media-icon.media-icon-winamp {
+    background-image:url(http://www.di.fm/assets/icon.winamp-7ef8afd144187d2ff0e57f5dfeb233aa.png)
+}
+.media-icon.media-icon-itunes {
+    background-image:url(http://www.di.fm/assets/icon.itunes-d04baeec889c11a0f8b5b1f5150856f3.png)
+}
+.media-icon.media-icon-vlc {
+    background-image:url(http://www.di.fm/assets/icon.vlc-fe5801e9834832ed7111aa30bf213b97.png)
+}
+.media-icon.media-icon-mp3 {
+    background-image:url(http://www.di.fm/assets/icon.mp3-10484697e2b04b59227c6277ba77f497.png)
+}
+.media-icon.media-icon-real {
+    background-image:url(http://www.di.fm/assets/icon.real-58afdaf8f8d1936be589ce673f910a84.png)
+}
+.media-icon.media-icon-wmp {
+    background-image:url(http://www.di.fm/assets/icon.wmp-9db4ed415d534ecdb6cdac9730023308.png)
+}
+.media-icon.media-icon-hardware {
+    background-image:url(http://www.di.fm/assets/icon.hardware-573dedd382e4926e90f05a5045d99c3f.png)
+}
+address,article,aside,blockquote,center,dir,div,dd,details,dl,dt,fieldset,figcaption,figure,form,footer,frameset,h1,h2,h3,h4,h5,h6,hr,header,hgroup,isindex,menu,nav,noframes,noscript,ol,p,pre,section,summary,ul,a,abbr,acronym,audio,b,basefont,bdo,big,br,canvas,cite,code,command,datalist,dfn,em,embed,font,i,img,input,keygen,kbd,label,mark,meter,output,progress,q,rp,rt,ruby,s,samp,select,small,span,strike,strong,sub,sup,textarea,time,tt,u,var,video,wbr,article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,mark,menu,meter,nav,output,progress,rp,rt,ruby,section,summary,time,video,wbr,table,thead,tbody,tfoot,tr,th,td,li {
+    position:relative;
+    background-repeat:no-repeat
+}
+p {
+    position:static
+}
+html {
+    overflow:-moz-scrollbars-vertical;
+    overflow-y:scroll;
+    font-size:100%;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%
+}
+html,body {
+    height:100%;
+    margin:0;
+    padding:0
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+    display:block
+}
+strong {
+    font-weight:bold
+}
+dfn {
+    font-style:italic
+}
+pre,code,kbd,samp {
+    font-family:monospace, monospace;
+    _font-family:"Courier New", monospace
+}
+pre {
+    white-space:pre;
+    white-space:pre-wrap;
+    white-space:pre-line;
+    word-wrap:break-word
+}
+blockquote {
+    quotes:"\201c" "\201d"
+}
+blockquote:before,blockquote:after {
+    vertical-align:bottom
+}
+blockquote:before {
+    content:open-quote
+}
+blockquote:after {
+    content:close-quote
+}
+q {
+    quotes:none
+}
+q:before,q:after {
+    content:"";
+    content:none
+}
+sup,sub {
+    vertical-align:baseline;
+    line-height:0;
+    font-size:75%
+}
+sup {
+    top:-0.5em
+}
+sub {
+    bottom:-0.25em
+}
+address {
+    margin-left:20px;
+    margin-bottom:1em
+}
+img {
+    border:0;
+    -ms-interpolation-mode:bicubic;
+    vertical-align:middle
+}
+svg:not(:root) {
+    overflow:hidden
+}
+iframe {
+    border:0
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+td {
+    vertical-align:middle
+}
+label,button {
+    cursor:pointer
+}
+input[type="radio"],input[type="checkbox"] {
+    vertical-align:text-bottom
+}
+@font-face {
+    font-family:'sansation';
+    src:url(http://www.di.fm/assets/sansation_regular-webfont-717f8107474a3ae166b47a83fa702521.eot);
+    src:url(http://www.di.fm/assets/sansation_regular-webfont.eot?#iefix) format("embedded-opentype"),url(http://www.di.fm/assets/sansation_regular-webfont-e369946b5876d072e1aed2b9c79d1968.woff) format("woff"),url(http://www.di.fm/assets/sansation_regular-webfont-ebaee3e279e4b89939c8642b1d44e68b.ttf) format("truetype"),url(http://www.di.fm/assets/sansation_regular-webfont.svg#sansation) format("svg");
+    font-weight:normal;
+    font-style:normal
+}
+a {
+    color:#e6e6e6;
+    font-size:12px;
+    text-decoration:none
+}
+a:hover,a.selected {
+    color:#FFF
+}
+a.button {
+    margin:0 4px;
+    background-color:#3F3F3F;
+    border:1px solid #1B1B1B;
+    padding:4px 10px;
+    text-shadow:0 -1px 1px rgba(0,0,0,0.75);
+    outline:none;
+    font-family:'PT Sans', sans-serif;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    background-clip:padding-box;
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding;
+    -webkit-box-shadow:0px 1px 0 rgba(255,255,255,0.1);
+    box-shadow:0px 1px 0 rgba(255,255,255,0.1)
+}
+a.button.narrow {
+    font-family:'PT Sans Narrow', sans-serif;
+    text-transform:uppercase;
+    height:16px;
+    padding:0 7px
+}
+a.button.inset {
+    background-color:#212121;
+    border:solid 1px #1C1C1C;
+    border-color:#1C1C1C #1F1F1F #3A3A3A;
+    -webkit-box-shadow:inset 0px 0px 1px 1px rgba(0,0,0,0.2);
+    box-shadow:inset 0px 0px 1px 1px rgba(0,0,0,0.2)
+}
+a.button:hover,a.button.selected {
+    background-color:#288cfb
+}
+.columns {
+    zoom:1;
+    width:100%
+}
+.columns:before,.columns:after {
+    content:"";
+    display:table
+}
+.columns:after {
+    clear:both
+}
+.column {
+    float:left
+}
+.grid {
+    zoom:1
+}
+.grid:before,.grid:after {
+    content:"";
+    display:table
+}
+.grid:after {
+    clear:both
+}
+.grid li {
+    float:left
+}
+.media-icon {
+    width:16px;
+    height:16px;
+    background-position:0 0
+}
+.media-icon.media-icon-flash {
+    background-image:url(http://www.di.fm/assets/icon.flash-2336707865a2a065f824a65c20afecd0.png)
+}
+.media-icon.media-icon-winamp {
+    background-image:url(http://www.di.fm/assets/icon.winamp-7ef8afd144187d2ff0e57f5dfeb233aa.png)
+}
+.media-icon.media-icon-itunes {
+    background-image:url(http://www.di.fm/assets/icon.itunes-d04baeec889c11a0f8b5b1f5150856f3.png)
+}
+.media-icon.media-icon-vlc {
+    background-image:url(http://www.di.fm/assets/icon.vlc-fe5801e9834832ed7111aa30bf213b97.png)
+}
+.media-icon.media-icon-mp3 {
+    background-image:url(http://www.di.fm/assets/icon.mp3-10484697e2b04b59227c6277ba77f497.png)
+}
+.media-icon.media-icon-real {
+    background-image:url(http://www.di.fm/assets/icon.real-58afdaf8f8d1936be589ce673f910a84.png)
+}
+.media-icon.media-icon-wmp {
+    background-image:url(http://www.di.fm/assets/icon.wmp-9db4ed415d534ecdb6cdac9730023308.png)
+}
+.media-icon.media-icon-hardware {
+    background-image:url(http://www.di.fm/assets/icon.hardware-573dedd382e4926e90f05a5045d99c3f.png)
+}
+.pie-active,.pie-passive {
+    z-index:1;
+    -pie-lazy-init:true
+}
+.pie-active {
+    -pie-poll:true
+}
+.premium-sprite,.premium-button-play,.premium-button-start-trial,.premium-button-stop,.premium-button-upgrade,.premium-channels-sm,.premium-channels,.premium-check,.premium-face-aaron,.premium-face-braeden,.premium-face-cameron,.premium-face-jim,.premium-icon-android,.premium-icon-blackberry,.premium-icon-chrome,.premium-icon-firefox,.premium-icon-flash,.premium-icon-ie,.premium-icon-ios,.premium-icon-itunes,.premium-icon-opera,.premium-icon-safari,.premium-icon-vlc,.premium-icon-winamp,.premium-icon-windows,.premium-icon-wmp,.premium-logo-premium,.premium-money-back-badge,.premium-playlist,a.upgrade,a.upgrade:hover,#overview h1,#overview li:before,#portability li.winamp,#portability li.flash,#portability li.vlc,#portability li.itunes,#portability li.wmp,#portability li.ios,#portability li.android,#portability li.blackberry,#portability li.windowsphone,#expertly-curated-channels .graphic,#no-ads .graphic,.jp-play,.jp-play:hover,.jp-play.playing,.jp-play.playing:hover,#thirty-day-guarantee .graphic,#testimonial-1 .avatar,#testimonial-2 .avatar,#testimonial-3 .avatar,#testimonial-4 .avatar {
+    background:url(http://www.di.fm/assets/premium-s162df39cb1-d5b12a24d2783328d1000a9e858e88dc.png) no-repeat
+}
+.premium-button-play {
+    background-position:0 -1056px
+}
+.premium-button-start-trial {
+    background-position:0 -783px
+}
+.premium-button-stop {
+    background-position:0 -1168px
+}
+.premium-button-upgrade {
+    background-position:0 -431px
+}
+.premium-channels-sm {
+    background-position:0 -227px
+}
+.premium-channels {
+    background-position:0 0
+}
+.premium-check {
+    background-position:0 -1776px
+}
+.premium-face-aaron {
+    background-position:0 -621px
+}
+.premium-face-braeden {
+    background-position:0 -675px
+}
+.premium-face-cameron {
+    background-position:0 -1241px
+}
+.premium-face-jim {
+    background-position:0 -729px
+}
+.premium-icon-android {
+    background-position:0 -1513px
+}
+.premium-icon-blackberry {
+    background-position:0 -1439px
+}
+.premium-icon-chrome {
+    background-position:0 -1474px
+}
+.premium-icon-firefox {
+    background-position:0 -1295px
+}
+.premium-icon-flash {
+    background-position:0 -1629px
+}
+.premium-icon-ie {
+    background-position:0 -1017px
+}
+.premium-icon-ios {
+    background-position:0 -1590px
+}
+.premium-icon-itunes {
+    background-position:0 -1334px
+}
+.premium-icon-opera {
+    background-position:0 -1737px
+}
+.premium-icon-safari {
+    background-position:0 -1129px
+}
+.premium-icon-vlc {
+    background-position:0 -1662px
+}
+.premium-icon-winamp {
+    background-position:0 -1702px
+}
+.premium-icon-windows {
+    background-position:0 -1405px
+}
+.premium-icon-wmp {
+    background-position:0 -1370px
+}
+.premium-logo-premium {
+    background-position:0 -1554px
+}
+.premium-money-back-badge {
+    background-position:0 -302px
+}
+.premium-playlist {
+    background-position:0 -115px
+}
+#hero_unit {
+    background-color:#151515;
+    background-image:url(http://www.di.fm/assets/premium-hero-bg-d78833b6b0c7fdbb530ec452bf2cdcdc.jpg);
+    background-position:center;
+    height:265px;
+    border-bottom:solid 1px #494949;
+    -webkit-box-shadow:0 1px 0 0 #1f1f1f;
+    box-shadow:0 1px 0 0 #1f1f1f
+}
+a.upgrade {
+    display:block;
+    background-position:0 -431px;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align:left;
+    width:244px;
+    height:95px
+}
+a.upgrade:hover {
+    background-position:0 -526px
+}
+.selling-point,#overview li,section .content-module h2 {
+    font-size:24px;
+    text-shadow:0 -1px 1px rgba(0,0,0,0.9)
+}
+#overview {
+    position:relative;
+    margin:0 auto;
+    width:880px;
+    height:232px;
+    padding:33px 30px 0 30px
+}
+#overview h1 {
+    background-position:0 -1554px;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align:left;
+    height:36px;
+    margin-bottom:22px
+}
+#overview ul {
+    list-style:none;
+    padding-left:4px;
+    margin:0;
+    display:inline-block
+}
+#overview li {
+    height:40px;
+    color:#FFF;
+    padding-bottom:0
+}
+#overview li:before {
+    content:" ";
+    display:inline-block;
+    width:21px;
+    height:21px;
+    margin-right:15px;
+    background-position:0 -1776px
+}
+#overview .upgrade {
+    position:absolute;
+    top:89px;
+    left:444px
+}
+#main_content .body .upgrade {
+    margin:0 auto;
+    position:relative;
+    left:2px;
+    top:-17px
+}
+section {
+    margin-bottom:20px
+}
+section .content-module {
+    zoom:1;
+    padding:30px
+}
+section .content-module:before,section .content-module:after {
+    content:"";
+    display:table
+}
+section .content-module:after {
+    clear:both
+}
+section .content-module h2 {
+    color:#e6e6e6;
+    line-height:1;
+    text-transform:capitalize
+}
+section .content-module p,section .content-module blockquote {
+    text-shadow:0 -1px 1px rgba(0,0,0,0.8);
+    margin-bottom:0;
+    line-height:1.5;
+    color:#8f8f8f
+}
+section .content-module .graphic,section .content-module .description {
+    width:430px
+}
+section .content-module .graphic {
+    height:105px;
+    background-repeat:no-repeat
+}
+section .graphic {
+    float:right
+}
+section .description {
+    float:left
+}
+section.odd .graphic {
+    float:left
+}
+section.odd .description {
+    float:right
+}
+#portability .players .label,#portability .apps .label {
+    float:left;
+    width:95px;
+    font-size:14px;
+    color:#8f8f8f;
+    text-shadow:0 -1 1px rgba(0,0,0,0.9)
+}
+#portability .players ul,#portability .apps ul {
+    float:left;
+    margin:0;
+    padding:0
+}
+#portability .players ul li,#portability .apps ul li {
+    display:inline-block;
+    padding-bottom:0;
+    margin-right:25px;
+    position:relative;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align:left
+}
+#portability .players {
+    margin-bottom:20px;
+    height:40px
+}
+#portability .players .label {
+    height:40px;
+    line-height:40px
+}
+#portability .apps {
+    height:41px
+}
+#portability .apps .label {
+    height:41px;
+    line-height:41px
+}
+#portability li.winamp {
+    background-position:0 -1702px;
+    width:35px;
+    height:35px;
+    top:2px
+}
+#portability li.flash {
+    background-position:0 -1629px;
+    width:32px;
+    height:33px;
+    top:3px
+}
+#portability li.vlc {
+    background-position:0 -1662px;
+    width:31px;
+    height:40px
+}
+#portability li.itunes {
+    background-position:0 -1334px;
+    width:35px;
+    height:36px;
+    top:2px
+}
+#portability li.wmp {
+    background-position:0 -1370px;
+    width:35px;
+    height:35px;
+    top:2px
+}
+#portability li.ios {
+    background-position:0 -1590px;
+    width:32px;
+    height:39px;
+    top:1px
+}
+#portability li.android {
+    background-position:0 -1513px;
+    width:30px;
+    height:41px
+}
+#portability li.blackberry {
+    background-position:0 -1439px;
+    width:35px;
+    height:35px;
+    top:3px
+}
+#portability li.windowsphone {
+    background-position:0 -1405px;
+    width:73px;
+    height:34px;
+    top:3px
+}
+#expertly-curated-channels .graphic {
+    background-position:0 0;
+    height:115px
+}
+#no-ads .graphic {
+    background-position:0 -115px;
+    height:112px;
+    position:relative;
+    top:-4px
+}
+#higher-quality-audio .graphic {
+    height:75px
+}
+.jp-interface {
+    position:relative;
+    width:100%
+}
+.jp-jplayer {
+    width:0px;
+    height:0px
+}
+.jp-play {
+    display:block;
+    width:73px;
+    height:73px;
+    position:relative;
+    z-index:2;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align:left;
+    background-position:0 -1056px
+}
+.jp-play:active {
+    outline:none
+}
+.jp-play:hover {
+    background-position:0 -871px
+}
+.jp-play.playing {
+    background-position:0 -1168px
+}
+.jp-play.playing:hover {
+    background-position:0 -944px
+}
+.jp-controls {
+    list-style-type:none;
+    padding:0;
+    margin:0
+}
+.jp-progress-container,.jp-progress,.chunks {
+    position:absolute;
+    left:0;
+    right:0
+}
+.jp-progress,.jp-seek-bar {
+    height:48px
+}
+.jp-progress-container {
+    border-top:solid 1px #131313;
+    padding-top:1px;
+    top:11px;
+    left:63px;
+    width:330px;
+    height:50px
+}
+.jp-progress {
+    background-color:#303030;
+    width:100%
+}
+.jp-seek-bar {
+    min-width:330px;
+    max-width:330px;
+    cursor:pointer;
+    position:relative;
+    z-index:1
+}
+.chunks {
+    top:0;
+    left:0;
+    height:49px;
+    z-index:3;
+    overflow:hidden;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none
+}
+.chunk {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    height:49px;
+    padding:14px 0 0 5px;
+    float:left;
+    border-left:solid 1px #161616;
+    text-transform:uppercase;
+    font-size:9px;
+    line-height:1.2;
+    color:#FFF;
+    overflow:hidden
+}
+.chunk span {
+    font-size:8px
+}
+.chunk:first-child {
+    padding-left:12px
+}
+.jp-play-bar {
+    width:0px;
+    height:47px;
+    background-color:#288cfb
+}
+#thirty-day-guarantee .graphic,#thirty-day-guarantee .description {
+    position:relative
+}
+#thirty-day-guarantee .graphic {
+    background-position:0 -302px;
+    height:129px;
+    width:223px;
+    position:relative;
+    left:97px
+}
+#thirty-day-guarantee .description {
+    top:30px
+}
+.video iframe {
+    display:block;
+    margin:0 auto
+}
+#testimonials .column {
+    width:410px
+}
+#testimonials .column:first-child {
+    padding-right:30px;
+    margin-right:20px;
+    border-right:solid 1px #3C3C3C;
+    -webkit-box-shadow:1px 0 0 #1f1f1f;
+    box-shadow:1px 0 0 #1f1f1f
+}
+.testimonial {
+    padding-left:10px;
+    line-height:1
+}
+.testimonial:first-child {
+    min-height:120px
+}
+.testimonial .avatar {
+    float:left;
+    width:54px;
+    height:54px;
+    margin-right:20px;
+    text-indent:-119988px;
+    overflow:hidden;
+    text-align:left
+}
+.testimonial .quote {
+    margin-left:74px;
+    position:relative;
+    top:-3px
+}
+.testimonial .testimonial-name {
+    color:#e6e6e6;
+    margin-top:10px
+}
+.testimonial blockquote {
+    margin:0
+}
+#testimonial-1 .avatar {
+    background-position:0 -1241px
+}
+#testimonial-2 .avatar {
+    background-position:0 -675px
+}
+#testimonial-3 .avatar {
+    background-position:0 -621px
+}
+#testimonial-4 .avatar {
+    background-position:0 -729px
+}
+#main_content form.billing {
+    margin-left:0
+}
+#main_content .payment-complete .form-actions {
+    margin:30px 0;
+    min-height:32px
+}
+#main_content .payment-complete .form-actions .btn,#main_content .payment-complete .form-actions button {
+    float:left;
+    margin:0 20px 0 0
+}
+#main_content .field-group .error {
+    position:relative;
+    padding-left:24px;
+    right:inherit
+}
+h2.arrows {
+    overflow:hidden
+}
+h2.arrows.inactive {
+    background-color:#2f2f2f
+}
+h2.arrows.active {
+    background-color:#414141
+}
+h2.arrows div {
+    float:left;
+    padding:0 30px 0 60px;
+    margin-left:-30px;
+    position:relative
+}
+h2.arrows div:first-child {
+    padding-left:30px
+}
+h2.arrows .arrow {
+    position:relative;
+    background:#414141;
+    border:none;
+    margin-right:30px
+}
+h2.arrows .arrow:after,h2.arrows .arrow:before {
+    position:absolute;
+    left:100%;
+    top:50%;
+    height:0;
+    width:0;
+    content:" ";
+    pointer-events:none;
+    border:solid transparent
+}
+h2.arrows .arrow:after {
+    border:solid 20px transparent;
+    margin-top:-20px
+}
+h2.arrows .arrow:before {
+    border:solid 28px transparent;
+    border-left-color:#272727;
+    margin-top:-28px
+}
+h2.arrows .level1 {
+    z-index:4
+}
+h2.arrows .level2 {
+    z-index:3
+}
+h2.arrows .level3 {
+    z-index:2
+}
+h2.arrows .level4 {
+    z-index:1
+}
+h2.arrows .active {
+    background:#414141
+}
+h2.arrows .active.arrow:after {
+    border-left-color:#414141
+}
+h2.arrows .inactive {
+    background-color:#2f2f2f;
+    color:#4D4D4D
+}
+h2.arrows .inactive.arrow:after {
+    border-left-color:#2f2f2f
+}
+fieldset.flush {
+    border:none;
+    padding-top:16px
+}

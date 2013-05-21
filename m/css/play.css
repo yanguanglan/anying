@@ -1,0 +1,88 @@
+#player {
+    background: #000;
+    height: 500px;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+#message {
+    width:400px;
+    text-align:center;
+    font-size:12px;
+    line-height:150%;
+    display:none;
+    position:absolute;
+    height:auto;
+    top:0;
+    left:0;
+    z-index:10;
+    word-break:break-all
+}
+#message-inner {
+    margin:0 auto;
+    text-align:center;
+    position:relative
+}
+#message-body {
+    border:1px solid;
+    padding:5px 10px;
+    text-align:left
+}
+#message .success {
+    color:#468847;
+    background-color:#dff0d8;
+    border-color:#468847
+}
+#message .info {
+    color:#3a87ad;
+    background-color:#d9edf7;
+    border-color:#3a87ad
+}
+#message .error {
+    color:#b94a48;
+    background-color:#f2dede;
+    border-color:#b94a48
+}
+#message .warning {
+    color:#c09853;
+    background-color:#fcf8e3;
+    border-color:#c09853
+}
+#message-close {
+    padding:0;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    -webkit-appearance:none;
+    position:absolute;
+    top:3px;
+    right:15px;
+    line-height:20px;
+    font-size:20px
+}
+.mask {
+    position:fixed;
+    top:0;
+    background:#000;
+    z-index:98;
+    opacity:.8;
+    display:none
+}
+#dropTip {
+    color:#fff;
+    position:fixed;
+    top:0;
+    z-index:99;
+    display:none;
+    margin:5px 10px;
+    font-size:14px
+}
+#u {
+    width: 740px;
+    _width: 737px;
+    outline: 0;
+}
+
+#operate-input form input, form select, form textarea {
+    margin-left: 0px;
+    margin-right: 10px;
+}
