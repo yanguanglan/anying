@@ -875,3 +875,9 @@ fieldset.flush {
     border:none;
     padding-top:16px
 }
+
+iframe {
+    border:0;
+    width: 100%;
+    height: 650px;
+}

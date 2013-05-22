@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/page.css">
-    <link rel="stylesheet" type="text/css" href="css/play.css">
     <style type="text/css" media="screen">#_uploader {visibility:hidden}</style>
     <script type="text/javascript" src="js/modernizr.js"></script>
 </head>
@@ -38,27 +37,7 @@
             </nav>
         </div>
     </header>
-    <div id="main_content" role="main">
-        <div class="body body-fullwidth">
-            <iframe src="http://www.x2yun.com/#!u=bt%3A%2F%2F672C1D54E3D830B01630F8C95D99997DF2FB355A%2F5"></iframe>
-            <!-- <section id="the-di-experience">
-                <h2 id="player-head">正在播放：<span id="filename"></span></h2>
-                <div class="content-module">
-                  <div class="video">
-                    <div id="player"></div>
-                    <div id="operate-input">
-                            <form onsubmit="javascript:x2.cleanUrl();return false;">
-                                <input id="u" type="text" name="u" value="" placeholder="输入视频下载地址">
-                                <a id="play-button" class="btn" href="javascript://">播放视频</a>
-                                <a id="upload-button" class="btn" href="javascript://" style="position: relative;">上传种子
-                                </a>
-                            </form>
-                        </div>
-                  </div>
-                </div>
-            </section> -->
-        </div>
-    </div>
+    <iframe frameborder="0" src="#" scrolling="no" id="iplay"></iframe>
     <div id="root_footer"></div>
 </div>
 <footer id="footer">
@@ -78,15 +57,6 @@
         <div class="copyright">Copyright 2013 @Lan</div>
     </div>
 </footer>
-<div id="message" style="top: 250px; left: 511.5px; display: none; opacity: 1;">
-    <div id="message-inner">
-        <div id="message-close" class="info">×</div>
-        <div id="message-body" class="info">分析磁力链或种子视频...</div>
-    </div>
-</div>
-<script type="text/javascript" src="//s0.qhimg.com/v.360.cn/;scripts;js;swfobject/94d0b14f.js"></script>
-<script type="text/javascript" src="//s0.qhimg.com/lib/jquery/183.js"></script>
-<script type="text/javascript" src="js/a5.js"></script>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -100,6 +70,10 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
   ga('create', 'UA-41092258-1', 'xiaoyemian.com');
   ga('send', 'pageview');
 
+</script>
+<script type="text/javascript">
+    var iframe = document.getElementsByTagName('iframe')[0]
+    iframe.src = "http://www.x2yun.com/"+window.location.hash;
 </script>
 </body>
 </html>
